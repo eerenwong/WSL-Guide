@@ -27,8 +27,8 @@ To make sure you are using build 18917 or higher please join the Windows Insider
 - in WSL
   1. add the following entry to /etc/wsl.conf:
       ```
-      # [network]
-      # generateResolvConf = false       
+       [network]
+       generateResolvConf = false       
       ```
   1. `sudo nano /etc/resolv.conf` and add `nameserver 8.8.8.8` and `nameserver 8.8.4.4`
   1. Duplicate `sudo cp /etc/resolv.conf /etc/resolv.conf.new`
